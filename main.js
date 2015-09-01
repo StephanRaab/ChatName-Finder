@@ -7,10 +7,10 @@ $(document).ready(function(){
         $('#pastIdeas').append('<li>' + chatName +'<br>');
     });
 
-    var closeButton = <i class="fa fa-times"></i>
+  //  var closeButton = <i class="fa fa-times"></i>
 
-    $(closeButton).click(function(){
+/*    $(closeButton).click(function(){
       $('<li>').toggleClass("fade");
     });
-    
+*/    
 });
