@@ -4,15 +4,25 @@
 		<meta charset="utf-8">
 		<title>Chatname Finder</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+          document.write(unescape("%3Cscript src='_scripts/jquery-2.0.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+      }
+    </script> <!-- Load local jQuery if Google CDN is unreachable -->
 	</head>
 	<body>
-		<input id="chatTest" type="text" placeholder="Your chat name idea" />
-		<button>Submit</button>
-		<h1 id="test">Hop on <span id="chatInput"></span> with me real quick!</h1>
-		<br>
-		<hr>
-		Past Ideas:
-		    <ul id="pastIdeas"></ul>
+		<div class="container">
+			<input id="chatTest" type="text" placeholder="Your chat name idea" />
+			<button>Submit</button>
+			<h1 id="test">"Hop on <span id="chatInput"></span> with me real quick!"</h1>
+			<br>
+			<hr>
+			Past Ideas:
+					<ul id="pastIdeas"></ul>
+		</div>
+
 	<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
