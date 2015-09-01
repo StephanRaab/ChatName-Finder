@@ -1,0 +1,45 @@
+* {
+      font-family: "courier", sans-serif;
+      font-size: 20px;
+}
+
+li{
+    atom
+
+}
+
+#test{
+    display: none;
+}
+
+#chatTest{
+    padding: 10px;
+    margin:10px;
+}
+
+input{
+    border:none;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+	border: 1px solid #FEC842; /* For browsers that don't support box-shadow */
+	-moz-box-shadow: 0 0 4px coral;
+	-webkit-box-shadow: 0 0 4px coral;
+	box-shadow: 0 0 4px coral;
+}
+
+button{
+    border-radius:1px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: coral;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete{
+    display:none;
+}
