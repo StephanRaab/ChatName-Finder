@@ -9,7 +9,15 @@ li{
 }
 
 .container{
-  margin: 0 auto;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  margin: 2em;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 #test{
@@ -44,7 +52,10 @@ button{
     cursor: pointer;
 }
 
-.fade{
-    color:grey;
-    text-decoration: line-through;
+button:focus{
+  outline: none;
+}
+
+#pastIdeas{
+
 }
