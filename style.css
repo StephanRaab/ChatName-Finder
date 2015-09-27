@@ -15,6 +15,7 @@ li{
     list-style: none;
     cursor: pointer;
 }
+
 .box{
   display: flex;
   justify-content: space-around;
@@ -66,12 +67,4 @@ button{
 
 button:focus{
   outline: none;
-}
-
-#pastIdeas{
-
-}
-
-.hide{
-  display: none;
 }
