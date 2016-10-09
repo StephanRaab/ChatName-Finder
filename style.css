@@ -10,18 +10,18 @@
   margin-bottom: -0.5em;
 }
 
-li{
+li {
     display: block;
     list-style: none;
     cursor: pointer;
 }
 
-.box{
+.box {
   display: flex;
   justify-content: space-around;
 }
 
-.container{
+.container {
   background-color: #f0f8ff;
   display: flex;
   justify-content: center;
@@ -33,16 +33,16 @@ li{
   border-radius: 10px;
 }
 
-#test{
+#sentence {
     display: none;
 }
 
-#chatTest{
+#chatTest {
     padding: 10px;
     margin:10px;
 }
 
-input{
+input {
     border:none;
     cursor: pointer;
 }
@@ -55,7 +55,7 @@ input:focus, textarea:focus {
 	box-shadow: 0 0 4px coral;
 }
 
-button{
+button {
     border-radius:1px;
     border: none;
     padding: 10px;
@@ -65,6 +65,6 @@ button{
     cursor: pointer;
 }
 
-button:focus{
+button:focus {
   outline: none;
 }
